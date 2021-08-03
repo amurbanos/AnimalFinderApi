@@ -21,12 +21,12 @@ namespace :dev do
         age: rand(1...14),
         state: "SP",
         city: "Santos",
-        status: rand(1...3),
+        status: 1,
         user_id: @user.id,
       )
       puts "Carregando foto de " + @pet.name
       @pet.image.attach(
-        io: File.open('/home/animal-finder/animal_finder_api/dev/pet1.jpg'), 
+        io: File.open("#{Rails.root}/dev/pet#{i+1}.jpg"), 
         filename: 'pet1.jpg',
         content_type: 'image/jpeg'
       )
