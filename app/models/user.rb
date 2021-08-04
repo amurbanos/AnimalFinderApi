@@ -14,7 +14,8 @@ class User < ApplicationRecord
 	  :id => id,
 	  :name => name,
 	  :email => email,
-	  :phone => phone 
+	  :phone => phone, 
+	  :pets => pets
 	}
 	end
     

@@ -1,5 +1,7 @@
 class Api::V1::UsersController < ApplicationController
 
+  before_action :authorize_request, except: [:login]
+
   # login user using JTW pattern
   def login
     puts user_params.inspect
@@ -14,11 +16,13 @@ class Api::V1::UsersController < ApplicationController
       data[:token] = nil
       data[:user] = nil 
     end   
-    render  json: data
+    render json: data
   end
 
   # list my pets
   def index
+    @user = User.find(@current_user.id)
+    render json: @user
   end
 
   private
