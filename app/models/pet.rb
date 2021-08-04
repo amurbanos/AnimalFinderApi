@@ -13,6 +13,8 @@ class Pet < ApplicationRecord
     :name => name,
     :age => age,
     :status => status,
+    :city => city,
+    :state => state,
     :information => information,
     :image_url => get_image
   }
