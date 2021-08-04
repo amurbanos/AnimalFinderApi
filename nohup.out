@@ -186,3 +186,108 @@ You can exit with `CTRL-C`
 [Wed Aug  4 01:44:54 2021] 172.17.0.1:52528 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
 [Wed Aug  4 01:44:54 2021] 172.17.0.1:52530 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
 [Wed Aug  4 01:44:54 2021] 172.17.0.1:52544 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 01:54:53 2021] 172.17.0.1:53626 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users
+[Wed Aug  4 01:54:56 2021] 172.17.0.1:53628 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=users&where%5Bid%5D=10
+[Wed Aug  4 01:55:04 2021] 172.17.0.1:53634 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=users&where%5Bid%5D=10
+[Wed Aug  4 01:55:04 2021] 172.17.0.1:53638 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users
+[Wed Aug  4 11:32:18 2021] 172.17.0.1:53790 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users
+[Wed Aug  4 11:32:18 2021] 172.17.0.1:53792 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+
+Welcome to CakePHP v3.5.17 Console
+---------------------------------------------------------------
+App : src
+Path: /home/apostas/apostas.com/src/
+DocumentRoot: /home/apostas/apostas.com/webroot
+Ini Path: 
+---------------------------------------------------------------
+built-in server is running in http://0.0.0.0:8765/
+You can exit with `CTRL-C`
+Terminated
+
+Welcome to CakePHP v3.5.17 Console
+---------------------------------------------------------------
+App : src
+Path: /home/apostas/apostas.com/src/
+DocumentRoot: /home/apostas/apostas.com/webroot
+Ini Path: 
+---------------------------------------------------------------
+built-in server is running in http://0.0.0.0:8765/
+You can exit with `CTRL-C`
+[Wed Aug  4 13:35:53 2021] 172.17.0.1:54318 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users
+[Wed Aug  4 13:35:53 2021] 172.17.0.1:54320 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 13:36:03 2021] 172.17.0.1:54326 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users
+[Wed Aug  4 13:36:03 2021] 172.17.0.1:54328 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users
+[Wed Aug  4 13:38:21 2021] 172.17.0.1:54404 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:38:23 2021] 172.17.0.1:54406 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=10
+[Wed Aug  4 13:38:27 2021] 172.17.0.1:54412 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=10
+[Wed Aug  4 13:38:27 2021] 172.17.0.1:54416 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:38:30 2021] 172.17.0.1:54424 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=9
+[Wed Aug  4 13:38:38 2021] 172.17.0.1:54426 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=9
+[Wed Aug  4 13:38:38 2021] 172.17.0.1:54430 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:38:42 2021] 172.17.0.1:54438 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=8
+[Wed Aug  4 13:38:45 2021] 172.17.0.1:54440 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=8
+[Wed Aug  4 13:38:45 2021] 172.17.0.1:54444 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:39:03 2021] 172.17.0.1:54466 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users
+[Wed Aug  4 13:39:06 2021] 172.17.0.1:54468 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:39:08 2021] 172.17.0.1:54474 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=10
+[Wed Aug  4 13:39:12 2021] 172.17.0.1:54480 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=10
+[Wed Aug  4 13:39:12 2021] 172.17.0.1:54484 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:39:16 2021] 172.17.0.1:54492 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=9
+[Wed Aug  4 13:39:19 2021] 172.17.0.1:54494 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=9
+[Wed Aug  4 13:39:19 2021] 172.17.0.1:54498 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:39:27 2021] 172.17.0.1:54506 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=8
+[Wed Aug  4 13:39:31 2021] 172.17.0.1:54508 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=8
+[Wed Aug  4 13:39:31 2021] 172.17.0.1:54512 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 13:51:20 2021] 172.17.0.1:54886 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 13:51:21 2021] 172.17.0.1:54888 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 13:51:34 2021] 172.17.0.1:54894 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 13:51:34 2021] 172.17.0.1:54896 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 13:52:58 2021] 172.17.0.1:54902 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 13:52:58 2021] 172.17.0.1:54904 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 13:52:58 2021] 172.17.0.1:54910 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 13:55:47 2021] 172.17.0.1:55414 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 13:55:47 2021] 172.17.0.1:55416 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 13:56:51 2021] 172.17.0.1:55424 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 13:56:51 2021] 172.17.0.1:55426 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 13:56:52 2021] 172.17.0.1:55432 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 14:19:14 2021] 172.17.0.1:58780 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 14:55:41 2021] 172.17.0.1:45242 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 14:55:41 2021] 172.17.0.1:45244 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 14:55:42 2021] 172.17.0.1:45258 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 14:55:42 2021] 172.17.0.1:45260 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 15:37:02 2021] 172.17.0.1:37046 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 17:26:10 2021] 172.17.0.1:43348 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 18:01:32 2021] 172.17.0.1:43996 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&table=pets
+[Wed Aug  4 18:03:05 2021] 172.17.0.1:44022 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 18:03:09 2021] 172.17.0.1:44024 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=31
+[Wed Aug  4 18:03:15 2021] 172.17.0.1:44030 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&edit=pets&where%5Bid%5D=31
+[Wed Aug  4 18:03:15 2021] 172.17.0.1:44034 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 18:24:27 2021] 172.17.0.1:47282 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 18:24:27 2021] 172.17.0.1:47284 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 18:24:34 2021] 172.17.0.1:47290 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 18:24:34 2021] 172.17.0.1:47292 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 18:25:32 2021] 172.17.0.1:47304 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 18:25:32 2021] 172.17.0.1:47306 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 18:25:32 2021] 172.17.0.1:47312 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 19:03:24 2021] 172.17.0.1:57238 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:03:24 2021] 172.17.0.1:57240 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:05:41 2021] 172.17.0.1:58336 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:05:41 2021] 172.17.0.1:58338 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 19:05:41 2021] 172.17.0.1:58352 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 19:09:35 2021] 172.17.0.1:60334 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 19:12:56 2021] 172.17.0.1:33726 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=pets
+[Wed Aug  4 19:12:56 2021] 172.17.0.1:33728 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 19:32:33 2021] 172.17.0.1:43448 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:32:33 2021] 172.17.0.1:43450 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 19:32:38 2021] 172.17.0.1:43456 [302]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:32:38 2021] 172.17.0.1:43458 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:33:27 2021] 172.17.0.1:43464 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:33:28 2021] 172.17.0.1:43466 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 19:33:28 2021] 172.17.0.1:43472 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Wed Aug  4 19:33:28 2021] 172.17.0.1:43474 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:33:28 2021] 172.17.0.1:43476 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 19:33:28 2021] 172.17.0.1:43482 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:33:29 2021] 172.17.0.1:43484 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 19:33:29 2021] 172.17.0.1:43488 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Wed Aug  4 19:33:29 2021] 172.17.0.1:43494 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Wed Aug  4 19:33:29 2021] 172.17.0.1:43498 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1

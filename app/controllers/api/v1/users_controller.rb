@@ -1,8 +1,9 @@
 class Api::V1::UsersController < ApplicationController
 
-  before_action :authorize_request, except: [:login]
+  before_action :authorize_request, except: [:login, :create]
 
   # login user using JTW pattern
+  # POST /login
   def login
     puts user_params.inspect
     user = User
@@ -19,15 +20,27 @@ class Api::V1::UsersController < ApplicationController
     render json: data
   end
 
-  # list my pets
+  # dados do usuario e lista de pets relacionados
+  # GET /users
   def index
     @user = User.find(@current_user.id)
     render json: @user
   end
 
+  # cadastro de usuario
+  # POST /users
+  def create
+    @user = User.new(user_params)
+    if @user.save
+      render json: @user, status: :created
+    else
+      render json: @user.errors, status: :unprocessable_entity
+    end
+  end
+
   private
     def user_params
-      params.require(:user).permit(:email, :password)
+      params.require(:user).permit(:name, :email, :password, :phone)
     end
 
 end
