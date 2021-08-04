@@ -1,28 +1,33 @@
 # README
 
-Sistema Animal Finder 1.0.1.
+# Animal Finder API - Urbano
 
-Things you may want to cover:
+Usando Ruby on Rails
 
-* Ruby version
+## Instalar dependencias
+```bash
+bundle install
+```
 
-* System dependencies
+### Preparar banco de dados
+```bash
+bin/rails db:create
+bin/rails db:migrate
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-* Preparar o ambiente de desenvolvimento
-
+### Popular o banco de dados com Faker data(gem Faker)
+```bash
 bin/rails dev:setup
+```
+
+* Aplicacao feita em modo Api only
+* Autenticacao com JWT
+* Paginacao com kamikari
+* Upload com Active Storage
+
+
+## Api public para listar animais desaparecidos
+GET https://dominio.com/api/v1/pets
+
+Parametros
+page -> (opcional) -> Paginar lista de animais
