@@ -8,7 +8,7 @@ namespace :dev do
     #%x(rails db:drop db:create db:migrate)
 
     puts "Cadastrando os donos..."
-    10.times do |i|
+    11.times do |i|
       @user = User.create!(
         name: Faker::Name.name,
         email: Faker::Internet.email,

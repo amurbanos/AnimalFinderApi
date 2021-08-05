@@ -292,3 +292,14 @@ You can exit with `CTRL-C`
 [Wed Aug  4 19:33:29 2021] 172.17.0.1:43494 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
 [Wed Aug  4 19:33:29 2021] 172.17.0.1:43498 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
 [Wed Aug  4 20:52:42 2021] 172.17.0.1:44960 [200]: /adminer/index.php?server=127.0.0.1&username=admin
+[Thu Aug  5 17:28:58 2021] 172.17.0.1:46840 [200]: /adminer/index.php
+[Thu Aug  5 17:29:05 2021] 172.17.0.1:46842 [302]: /adminer/index.php
+[Thu Aug  5 17:29:05 2021] 172.17.0.1:46848 [200]: /adminer/index.php?server=127.0.0.1&username=admin
+[Thu Aug  5 17:29:15 2021] 172.17.0.1:46856 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Thu Aug  5 17:29:15 2021] 172.17.0.1:46858 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Thu Aug  5 17:29:23 2021] 172.17.0.1:46864 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Thu Aug  5 17:29:26 2021] 172.17.0.1:46870 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Thu Aug  5 18:13:12 2021] 172.17.0.1:47396 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder
+[Thu Aug  5 18:13:12 2021] 172.17.0.1:47398 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&script=db
+[Thu Aug  5 18:13:13 2021] 172.17.0.1:47406 [200]: /adminer/index.php?file=favicon.ico&version=4.3.1
+[Thu Aug  5 18:47:39 2021] 172.17.0.1:60416 [200]: /adminer/index.php?server=127.0.0.1&username=admin&db=animal_finder&select=users

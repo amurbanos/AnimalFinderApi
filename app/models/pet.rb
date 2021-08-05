@@ -22,12 +22,15 @@ class Pet < ApplicationRecord
 
   def get_image
     if self.image.attached?
-      return Rails.application.routes.url_helpers.rails_blob_path(
-        image, 
-        only_path: true
-      )
+      return Rails.application.routes.url_helpers
+        .rails_representation_url(image.variant(
+          :gravity=>"North", 
+          resize: "200x200^",
+          crop: '200x200+0+0'
+        )
+        .processed, only_path: true)
     end
     return "/pet.png"
-  end
+  end  
 
 end

@@ -60,7 +60,15 @@ class Api::V1::PetsController < ApplicationController
   end
 
   # adiciona e recorta a imagem
-  def set_image
+  # PATCH /pets/image/:id
+  def image
+    @pet = Pet.find(params[:id])
+    @pet.image = params[:image]
+    if @pet.save
+      render json: @pet, status: :created
+    else
+      render json: @pet.errors, status: :unprocessable_entity
+    end 
   end
 
   private

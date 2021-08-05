@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources  :pets   
       patch "/pets/found/:id" => "pets#found"  
+      patch "/pets/image/:id" => "pets#image"  
       resources  :users
       post "/users/login" => "users#login"  
     end
