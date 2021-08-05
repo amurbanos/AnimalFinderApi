@@ -25,6 +25,7 @@ class Api::V1::PetsController < ApplicationController
   end
 
   # apenas dono do pet pode excluir
+  # DELETE /pets/:id
   def destroy
     pet = Pet.where(
       :id => params[:id],
@@ -34,7 +35,19 @@ class Api::V1::PetsController < ApplicationController
     .destroy
   end
 
-  # 
+  # Seta animal como encontrado
+  # PATCH /pets/found/:id
+  def found
+    @pet = Pet.find(params[:id])
+    @pet.status = 3
+    if @pet.save
+      render json: @pet, status: :created
+    else
+      render json: @pet.errors, status: :unprocessable_entity
+    end
+  end  
+
+  # PATCH /pets/fount/:id
   def update
     @pet = Pet.find(params[:id])
     @pet.status = 2

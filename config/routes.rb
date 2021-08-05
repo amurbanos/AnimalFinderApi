@@ -4,9 +4,11 @@ Rails.application.routes.draw do
   # Api 1.0  
   namespace :api do
     namespace :v1 do
-      resources  :pets       
+      resources  :pets   
+      patch "/pets/found/:id" => "pets#found"  
       resources  :users
       post "/users/login" => "users#login"  
     end
   end
+
 end
