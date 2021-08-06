@@ -1,9 +1,12 @@
 class ApplicationController < ActionController::API
 
+  # retorna usuario nao encontrado
   def not_found
     render json: { error: 'not_found' }
   end
 
+  # valida JWT quando solicitado
+  # cria atributo @current_user que ficara disponivel em todos os controllers herdados
   def authorize_request
     header = request.headers['Authorization']
     header = header.split(' ').last if header
