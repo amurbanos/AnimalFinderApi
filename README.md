@@ -33,6 +33,8 @@ bin/rails dev:setup
 curl \
   --request GET  https://api-animalfinder.urbanodata.com.br/api/v1/pets?page=1 \
   --header "Content-Type: application/json" 
+
+# resposta
 {
   "pets":[
     {
@@ -48,5 +50,4 @@ curl \
   ],
   "total_pages":3
 }
-
 ```
