@@ -16,6 +16,8 @@ class Pet < ApplicationRecord
     :city => city,
     :state => state,
     :information => information,
+    :found_name => found_name,
+    :found_phone => found_phone,
     :image_url => get_image
   }
   end

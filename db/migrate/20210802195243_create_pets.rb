@@ -6,6 +6,8 @@ class CreatePets < ActiveRecord::Migration[6.0]
       t.text :information
       t.string :city
       t.string :state
+      t.string :found_name
+      t.string :found_phone
       t.integer :status, limit: 1,  comment: "1-Perdido, 2-Comunicado, 3-Encontrado"
       t.references :user, null: false, foreign_key: true
 

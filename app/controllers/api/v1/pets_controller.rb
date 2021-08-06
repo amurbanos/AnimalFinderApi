@@ -1,6 +1,8 @@
 class Api::V1::PetsController < ApplicationController
 
   before_action :authorize_request, except: [:index, :update]
+  before_action :set_pet, only: [:found, :update, :image]
+
 
   # paginacao animais desaparecidos
   # GET /pets
@@ -39,7 +41,6 @@ class Api::V1::PetsController < ApplicationController
   # Seta animal como encontrado
   # PATCH /pets/found/:id
   def found
-    @pet = Pet.find(params[:id])
     @pet.status = 3
     if @pet.save
       render json: @pet, status: :created
@@ -51,10 +52,7 @@ class Api::V1::PetsController < ApplicationController
   # insere e atualiza imagem do animal
   # PATCH /pets/fount/:id
   def update
-    @pet = Pet.find(params[:id])
-    @pet.status = 2
-    @pet.information = @pet.information.to_s + " Notificado por: " + pet_params[:information]
-    if @pet.save
+    if @pet.update(pet_params)
       render json: @pet, status: :created
     else
       render json: @pet.errors, status: :unprocessable_entity
@@ -64,7 +62,6 @@ class Api::V1::PetsController < ApplicationController
   # adiciona e recorta a imagem
   # PATCH /pets/image/:id
   def image
-    @pet = Pet.find(params[:id])
     @pet.image = params[:image]
     if @pet.save
       render json: @pet, status: :created
@@ -73,9 +70,14 @@ class Api::V1::PetsController < ApplicationController
     end 
   end
 
+
   private
+    def set_pet
+      @pet = Pet.find(params[:id])
+    end
+
     def pet_params
-      params.require(:pet).permit(:name, :age, :state, :city, :information)
+      params.require(:pet).permit(:id, :name, :age, :status, :state, :city, :information, :found_name, :found_phone)
     end
 
 end
