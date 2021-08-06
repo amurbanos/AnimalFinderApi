@@ -3,6 +3,7 @@ class Api::V1::PetsController < ApplicationController
   before_action :authorize_request, except: [:index, :update]
 
   # paginacao animais desaparecidos
+  # GET /pets
   def index
     @pets =  Pet.where(:status => 1).order(:created_at => :desc).page(params[:page]).per(4)
     data = Hash.new
@@ -47,6 +48,7 @@ class Api::V1::PetsController < ApplicationController
     end
   end  
 
+  # insere e atualiza imagem do animal
   # PATCH /pets/fount/:id
   def update
     @pet = Pet.find(params[:id])
