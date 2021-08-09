@@ -18,7 +18,12 @@ class Pet < ApplicationRecord
     :information => information,
     :found_name => found_name,
     :found_phone => found_phone,
-    :image_url => get_image
+    :image_url => get_image,
+    :user => user = {
+      :id => self.user.id,
+      :name => self.user.name,
+      :phone => self.user.phone
+    }
   }
   end
 
